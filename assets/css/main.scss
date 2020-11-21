@@ -1,4 +1,8 @@
 /* MAIN.CSS */
-@import 'reset';
-
-@import 'media-queries';
+@import 'utils/fonts';
+@import 'utils/reset';
+@import 'utils/variables';
+@import 'base';
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'utils/media-queries';

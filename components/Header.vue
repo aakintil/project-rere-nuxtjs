@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="row row-header">
     <b-navbar toggleable="lg" type="light" color="light" variant="light">
       <b-navbar-brand>
         <nuxt-link to="/">
@@ -12,9 +12,14 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <nuxt-link to="/"> Home </nuxt-link>
-          <nuxt-link to="/about"> About </nuxt-link>
-          <nuxt-link to="/apply"> Apply </nuxt-link>
+          <b-nav-item to="/" class="button-links"> Home </b-nav-item>
+          <b-nav-item to="/about" class="button-links"> About </b-nav-item>
+          <b-nav-item
+            to="/apply"
+            class="button button-sm button-outline-primary button-links"
+          >
+            Apply
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

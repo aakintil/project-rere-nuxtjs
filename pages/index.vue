@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="row row-content">
     <div>
       <h1 class="title">project-rere</h1>
     </div>
