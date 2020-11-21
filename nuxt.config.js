@@ -4,19 +4,33 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'project-rere',
+    title: 'Project Rere',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Project Rere shares social enterprise stories that prove we can create positive social impact and not forsake financial or business returns: shining a positive light on people who are making a difference.',
+      },
+      {
+        hid: 'ogsitename',
+        property: 'og:site_name',
+        content: 'Project Rere',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'canonical', href: 'https://projectrere.com/' },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     'bootstrap/dist/css/bootstrap.css',
     'bootstrap-vue/dist/bootstrap-vue.css',
+    '~/assets/css/main.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
