@@ -14,10 +14,13 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [],
+  css: [
+    'bootstrap/dist/css/bootstrap.css',
+    'bootstrap-vue/dist/bootstrap-vue.css',
+  ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: ['~/plugins/bootstrap.js'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -45,9 +48,13 @@ export default {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
         })
       }
-    }
-  }
+    },
+  },
+}
+
+module.exports = {
+  modules: ['bootstrap-vue/nuxt'],
 }
