@@ -1,6 +1,12 @@
 <template>
   <div class="row row-header">
-    <b-navbar toggleable="lg" type="light" color="light" variant="light">
+    <b-navbar
+      toggleable="lg"
+      type="light"
+      color="light"
+      variant="light"
+      fixed="top"
+    >
       <b-navbar-brand>
         <nuxt-link to="/">
           <Logo />
