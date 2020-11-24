@@ -1,0 +1,23 @@
+.row-footer.home {
+  background: $primary-blue;
+  color: white !important;
+}
+
+.footer {
+  padding: map-get($spacing-val, 4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.footer .button-links {
+  text-align: center;
+}
+
+.footer .caption {
+  font-size: 12px;
+  font-weight: 500;
+}

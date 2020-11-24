@@ -7,10 +7,12 @@
       variant="light"
       fixed="top"
     >
-      <b-navbar-brand>
-        <nuxt-link to="/">
-          <Logo />
-        </nuxt-link>
+      <b-navbar-brand target="nav-collapse">
+        <!-- <nuxt-link to="/" v-model="showCollapse"> -->
+        <!-- TODOs
+        see if we can get the navbar to collapse when you tap the logo -->
+        <Logo />
+        <!-- </nuxt-link> -->
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
