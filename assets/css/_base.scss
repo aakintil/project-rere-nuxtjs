@@ -14,10 +14,33 @@ body {
 
 .row-body > div {
   padding: $mobile-padding;
+  width: 100%;
 }
 
+// fonts
+h1 {
+  font-weight: 700;
+  font-size: $h1-mobile;
+  line-height: $h1-line-height-mobile;
+  letter-spacing: -0.75px;
+}
+
+h5 {
+  font-weight: 500;
+  line-height: $h5-line-height-mobile;
+  font-size: $h5-mobile;
+  letter-spacing: -0.5px;
+}
+
+// hero sections
 .hero {
   position: relative;
+  overflow: hidden;
+  height: $mobile-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
@@ -33,7 +56,7 @@ body {
 .hero-image {
   z-index: 0;
   position: absolute;
-  left: 0;
+  max-width: 200%;
   top: 0;
 }
 
@@ -41,4 +64,9 @@ body {
   z-index: 2;
   color: white;
   position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

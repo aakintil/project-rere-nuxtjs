@@ -5,18 +5,21 @@
         <h1 class="title">
           Project Rere supports Social Enterprises in Africa and Asia.
         </h1>
-        <p class="">
+        <h5 class="mt-5">
           Working on improving access to Education in Nigeria? Apply now for our
           Podcast and Grant!
-        </p>
+        </h5>
+        <nuxt-link to="/apply" class="button button-primary button-lg mt-2">
+          Apply
+        </nuxt-link>
       </div>
       <div class="overlay"></div>
       <b-img
-        class=""
-        :src="require('~/assets/img/hero-banner.jpg')"
+        fluid
+        class="hero-image"
+        :src="require('~/assets/images/hero-banner.jpg')"
         alt="Responsive image"
       ></b-img>
-      <!-- <img class="hero-image" src="~/assets/images/hero-banner.jpg" alt="" /> -->
     </div>
     <div class="content"></div>
   </div>

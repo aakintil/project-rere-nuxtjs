@@ -1,7 +1,7 @@
 <template>
   <img
     class="header-logo"
-    src="~/static/images/logos/projectrere-logo-blue.svg"
+    src="~/assets/images/logos/projectrere-logo-blue.svg"
     alt=""
   />
 </template>
