@@ -21,6 +21,10 @@ body {
   margin-right: 0;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
 // fonts
 h1 {
   font-weight: 700;

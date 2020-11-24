@@ -1,1 +1,21 @@
 /* MEDIA QUERIES.CSS */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .text-wrapper,
+  .info {
+    max-width: 576px;
+  }
+
+  .hero {
+    height: 88vh;
+  }
+  .info-card .caption {
+    max-width: 440px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 113.85px;
+  }
+}
