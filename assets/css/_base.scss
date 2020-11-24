@@ -25,6 +25,20 @@ h1 {
   letter-spacing: -0.75px;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: $h2-mobile;
+  line-height: $h2-line-height-mobile;
+  letter-spacing: -0.75px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: $h3-mobile;
+  line-height: $h3-line-height-mobile;
+  letter-spacing: -0.5px;
+}
+
 h5 {
   font-weight: 500;
   line-height: $h5-line-height-mobile;
@@ -32,11 +46,13 @@ h5 {
   letter-spacing: -0.5px;
 }
 
+.caption {
+}
+
 // hero sections
 .hero {
   position: relative;
   overflow: hidden;
-  height: $mobile-height;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,4 +85,27 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+// sub sections
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+// info cards
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 56px 0;
+}
+
+.info-card > * {
+  margin: 2px 0;
+}
+.info-cards-img {
+  width: 140px;
 }
