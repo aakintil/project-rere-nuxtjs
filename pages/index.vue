@@ -66,6 +66,20 @@
           </div>
         </div>
       </div>
+      <div class="join">
+        <iframe
+          id="JotFormIFrame-90142788412154"
+          title="Trainee Registration Form"
+          onload="window.parent.scrollTo(0,0)"
+          allowtransparency="true"
+          allowfullscreen="true"
+          allow="geolocation; microphone; camera"
+          src="https://form.jotform.com/202654195519056"
+          frameborder="0"
+          style="width: 1px; min-width: 100%; height: 100%; border: none"
+          scrolling="yes"
+        ></iframe>
+      </div>
     </div>
   </div>
 </template>
