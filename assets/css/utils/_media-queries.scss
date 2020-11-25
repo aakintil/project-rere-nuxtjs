@@ -2,7 +2,8 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .text-wrapper,
-  .content div {
+  .info,
+  .join {
     max-width: 576px;
   }
 
@@ -11,6 +12,15 @@
   }
   .info-card .caption {
     max-width: 440px;
+  }
+}
+
+@media (min-width: 772px) {
+  .content-wrapper {
+    max-width: 772px;
+    border-radius: 8px;
+    margin-top: -62px;
+    z-index: 1;
   }
 }
 
@@ -54,7 +64,9 @@
     line-height: 48px;
     font-size: 32px;
   }
-
+  .hero {
+    height: 98vh;
+  }
   .caption {
     font-size: 24px;
     letter-spacing: -1px;
@@ -68,12 +80,16 @@
   }
 
   .text-wrapper,
-  .content div {
+  .content-wrapper {
     max-width: 912px;
+  }
+  .info,
+  .join {
+    max-width: 696px;
   }
 
   .info-card .caption {
-    max-width: 746px;
+    max-width: 512px;
   }
   .navbar-nav {
     width: 440px;

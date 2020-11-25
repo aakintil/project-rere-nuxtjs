@@ -22,63 +22,65 @@
       ></b-img>
     </div>
     <div class="content">
-      <div class="info">
-        <h2 class="">
-          We hope to inspire more people to support Social Enterprises, and
-          begin their own social impact journey.
-        </h2>
-        <div class="info-cards-container">
-          <div class="info-card">
-            <b-img
-              class="info-cards-img"
-              :src="require('~/assets/images/icons/awareness-icon.png')"
-              alt="Responsive image"
-            ></b-img>
-            <h3>Awareness</h3>
-            <p class="caption">
-              We share stories about and provide grants to Social Enterprises in
-              Africa and Asia.
-            </p>
-          </div>
-          <div class="info-card">
-            <b-img
-              class="info-cards-img"
-              :src="require('~/assets/images/icons/podcasts-icon.png')"
-              alt="Responsive image"
-            ></b-img>
-            <h3>Podcasts</h3>
-            <p class="caption">
-              Through stories, we aim to provide Social Enterprises access to an
-              audience of curious listeners and investors.
-            </p>
-          </div>
-          <div class="info-card">
-            <b-img
-              class="info-cards-img"
-              :src="require('~/assets/images/icons/grants-icon.png')"
-              alt="Responsive image"
-            ></b-img>
-            <h3>Grants</h3>
-            <p class="caption">
-              We use our grant capital to support the growth of creative and
-              innovative ideas developed by Social Entrepreneurs.
-            </p>
+      <div class="content-wrapper">
+        <div class="info">
+          <h2 class="">
+            We hope to inspire more people to support Social Enterprises, and
+            begin their own social impact journey.
+          </h2>
+          <div class="info-cards-container">
+            <div class="info-card">
+              <b-img
+                class="info-cards-img"
+                :src="require('~/assets/images/icons/awareness-icon.png')"
+                alt="Responsive image"
+              ></b-img>
+              <h3>Awareness</h3>
+              <p class="caption">
+                We share stories about and provide grants to Social Enterprises
+                in Africa and Asia.
+              </p>
+            </div>
+            <div class="info-card">
+              <b-img
+                class="info-cards-img"
+                :src="require('~/assets/images/icons/podcasts-icon.png')"
+                alt="Responsive image"
+              ></b-img>
+              <h3>Podcasts</h3>
+              <p class="caption">
+                Through stories, we aim to provide Social Enterprises access to
+                an audience of curious listeners and investors.
+              </p>
+            </div>
+            <div class="info-card">
+              <b-img
+                class="info-cards-img"
+                :src="require('~/assets/images/icons/grants-icon.png')"
+                alt="Responsive image"
+              ></b-img>
+              <h3>Grants</h3>
+              <p class="caption">
+                We use our grant capital to support the growth of creative and
+                innovative ideas developed by Social Entrepreneurs.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="join">
-        <iframe
-          id="JotFormIFrame-90142788412154"
-          title="Trainee Registration Form"
-          onload="window.parent.scrollTo(0,0)"
-          allowtransparency="true"
-          allowfullscreen="true"
-          allow="geolocation; microphone; camera"
-          src="https://form.jotform.com/202654195519056"
-          frameborder="0"
-          style="width: 1px; min-width: 100%; height: 100%; border: none"
-          scrolling="yes"
-        ></iframe>
+        <div class="join">
+          <iframe
+            id="JotFormIFrame-90142788412154"
+            title="Trainee Registration Form"
+            onload="window.parent.scrollTo(0,0)"
+            allowtransparency="true"
+            allowfullscreen="true"
+            allow="geolocation; microphone; camera"
+            src="https://form.jotform.com/202654195519056"
+            frameborder="0"
+            style="width: 1px; min-width: 100%; height: 100%; border: none"
+            scrolling="yes"
+          ></iframe>
+        </div>
       </div>
     </div>
   </div>
