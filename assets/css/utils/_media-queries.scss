@@ -17,5 +17,65 @@
 @media (min-width: 992px) {
   .navbar {
     height: 113.85px;
+    padding: 32px 200px;
+  }
+  .nav-collapse,
+  .navbar-nav {
+    height: inherit;
+  }
+  .navbar-nav {
+    width: 340px;
+  }
+
+  .text-wrapper {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: 0;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h5 {
+    line-height: 48px;
+    font-size: 32px;
+  }
+
+  .caption {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+
+  .info-card > * {
+    margin: 4px 0;
+  }
+  .text-wrapper h5 {
+    max-width: 700px;
+  }
+
+  .text-wrapper,
+  .content div {
+    max-width: 912px;
+  }
+
+  .info-card .caption {
+    max-width: 746px;
+  }
+  .navbar-nav {
+    width: 440px;
   }
 }

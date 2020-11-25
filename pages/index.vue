@@ -85,7 +85,21 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => {
+        console.log(
+          'check loading ',
+          document.getElementById('JotFormIFrame-90142788412154') // TODOs get the formfooter children
+        )
+        this.$nuxt.$loading.finish()
+      }, 4500)
+    })
+  },
+}
 </script>
 
 <style></style>
