@@ -44,15 +44,15 @@
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   h1 {
-    font-size: 70px;
-    line-height: 90px;
+    font-size: 60px;
+    line-height: 80px;
     letter-spacing: 0;
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 60px;
   }
 
@@ -63,9 +63,13 @@
   h5 {
     line-height: 48px;
     font-size: 32px;
+    font-weight: 400;
   }
   .hero {
     height: 98vh;
+  }
+  .hero-image {
+    max-width: 150%;
   }
   .caption {
     font-size: 24px;
@@ -81,11 +85,17 @@
 
   .text-wrapper,
   .content-wrapper {
-    max-width: 912px;
+    max-width: 976px;
+  }
+  .content-wrapper {
+    margin-top: -116px;
+  }
+  .join {
+    min-height: 670px;
   }
   .info,
   .join {
-    max-width: 696px;
+    max-width: 776px;
   }
 
   .info-card .caption {
@@ -93,5 +103,30 @@
   }
   .navbar-nav {
     width: 440px;
+  }
+}
+
+@media (min-width: 1660px) {
+  .info-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .info-card {
+    width: 270px;
+  }
+
+  .text-wrapper,
+  .content-wrapper {
+    max-width: 1200px;
+  }
+  .info,
+  .join {
+    max-width: 900px;
+  }
+
+  .caption {
+    font-size: 20px;
   }
 }

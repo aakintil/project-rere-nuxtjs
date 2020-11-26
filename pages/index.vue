@@ -68,6 +68,9 @@
           </div>
         </div>
         <div class="join">
+          <h2>
+            Join us as we promote positive social change across Africa and Asia
+          </h2>
           <iframe
             id="JotFormIFrame-90142788412154"
             title="Trainee Registration Form"

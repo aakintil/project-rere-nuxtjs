@@ -31,7 +31,8 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  color: #4d4d4d;
+  font-weight: 600;
   font-size: $h2-mobile;
   line-height: $h2-line-height-mobile;
   letter-spacing: -0.75px;
@@ -111,11 +112,17 @@ h5 {
 }
 
 .join {
-  width: 100%;
-  height: 500px;
+  margin-top: 80px;
+  min-height: 500px;
+  min-height: 520px;
+}
+.join h2 {
+  margin-bottom: 32px;
 }
 // sub sections
-.info {
+.info,
+.join {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
