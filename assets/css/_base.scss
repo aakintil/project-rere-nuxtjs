@@ -152,7 +152,7 @@ h5 {
 }
 
 .team-card {
-  padding: 24px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -185,4 +185,8 @@ h5 {
   padding-bottom: 4px;
   text-align: center;
   font-weight: 400;
+}
+
+.team-card img {
+  max-width: 320px;
 }
