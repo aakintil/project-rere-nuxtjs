@@ -21,7 +21,7 @@
           fluid
           class="hero-image"
           :src="require('~/assets/images/about-banner.jpg')"
-          alt="Responsive image"
+          alt=""
         ></b-img>
       </div>
       <div class="content">
