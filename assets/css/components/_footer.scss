@@ -1,9 +1,9 @@
 .row-footer.home {
-  background: $primary-blue;
-  color: white !important;
 }
 
 .footer {
+  background: $primary-blue;
+  color: white !important;
   padding: map-get($spacing-val, 4);
   display: flex;
   flex-direction: column;

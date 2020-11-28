@@ -89,14 +89,12 @@
         </div>
       </div>
       <div class="footer">
-        <nuxt-link v-if="checkRoutes === 'home'" to="/" class="navbar-brand">
-          <img
-            class="header-logo"
-            loading="auto"
-            src="~/assets/images/logos/projectrere-logo-white.svg"
-            alt=""
-          />
-        </nuxt-link>
+        <b-img
+          class="header-logo"
+          loading="auto"
+          :src="require('~/assets/images/logos/projectrere-logo-white.svg')"
+          alt=""
+        />
         <a
           href="https://docs.google.com/document/d/1WcHhkeq4FBVVHUXvXnpjsHdPm4fkvGhRWTL6sWCLKzI/edit?usp=sharing"
           target="_blank"
