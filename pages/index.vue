@@ -79,16 +79,14 @@
               Asia
             </h2>
             <iframe
-              META
-              HTTP-EQUIV="Access-Control-Allow-Origin"
+              allowtransparency="true"
               id="JotFormIFrame-90142788412154"
               title="Trainee Registration Form"
-              @load="iframeStyles"
-              allowtransparency="true"
               allowfullscreen="true"
               allow="geolocation; microphone; camera"
               src="https://form.jotform.com/202654195519056"
               frameborder="0"
+              @load="iframeStyles"
               style="
                 width: 1px;
                 min-width: 100%;
@@ -128,6 +126,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
   transition: {
     name: 'home',
@@ -138,25 +137,21 @@ export default {
       this.$nuxt.$loading.start()
 
       setTimeout(() => {
-        const iframe = document.getElementById('JotFormIFrame-90142788412154')
-
+        // const iframe = document.getElementById('JotFormIFrame-90142788412154')
+        // $('iframe').contents().find('.formFooter').css('display', 'none')
+        const frame = $('iframe').get(0)
         console.log(
           'check loading ',
-          $
+          $(frame.body)
           // iframe.contentWindow // TODOs get the formfooter children
         )
         this.$nuxt.$loading.finish()
-      }, 4500)
+      }, 3500)
     })
   },
   methods: {
     iframeStyles() {
-      console.log(
-        'calling iframe styles ---------------- ',
-        this.$refs.contentWindow
-      )
       // this.frame = this.$refs.iframeContent.contentWindow
-
       // const style =
       //   '.layout__wrapper {background:' +
       //   this.background +
