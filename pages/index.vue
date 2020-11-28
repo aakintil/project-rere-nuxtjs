@@ -146,7 +146,7 @@ export default {
           // iframe.contentWindow // TODOs get the formfooter children
         )
         this.$nuxt.$loading.finish()
-      }, 3500)
+      }, 500)
     })
   },
   methods: {

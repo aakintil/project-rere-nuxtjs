@@ -302,6 +302,10 @@ h3 {
   text-align: center;
 }
 
+.hero-image {
+  margin-top: -520px;
+}
+
 @media (min-width: 992px) {
   .hero-image {
     max-width: 150%;
