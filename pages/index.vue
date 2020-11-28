@@ -1,5 +1,10 @@
 <template>
-  <transition name="home" mode="in-out">
+  <transition
+    name="home"
+    mode="in-out"
+    appear
+    appear-class="custom-appear-class"
+  >
     <div class="row row-body">
       <div class="hero">
         <div class="text-wrapper">
@@ -74,15 +79,23 @@
               Asia
             </h2>
             <iframe
+              META
+              HTTP-EQUIV="Access-Control-Allow-Origin"
               id="JotFormIFrame-90142788412154"
               title="Trainee Registration Form"
-              onload="window.parent.scrollTo(0,0)"
+              @load="iframeStyles"
               allowtransparency="true"
               allowfullscreen="true"
               allow="geolocation; microphone; camera"
               src="https://form.jotform.com/202654195519056"
               frameborder="0"
-              style="width: 1px; min-width: 100%; height: 100%; border: none"
+              style="
+                width: 1px;
+                min-width: 100%;
+                min-height: 500px;
+                height: 100%;
+                border: none;
+              "
               scrolling="yes"
             ></iframe>
           </div>
@@ -125,13 +138,34 @@ export default {
       this.$nuxt.$loading.start()
 
       setTimeout(() => {
+        const iframe = document.getElementById('JotFormIFrame-90142788412154')
+
         console.log(
           'check loading ',
-          document.getElementById('JotFormIFrame-90142788412154') // TODOs get the formfooter children
+          $
+          // iframe.contentWindow // TODOs get the formfooter children
         )
         this.$nuxt.$loading.finish()
       }, 4500)
     })
+  },
+  methods: {
+    iframeStyles() {
+      console.log(
+        'calling iframe styles ---------------- ',
+        this.$refs.contentWindow
+      )
+      // this.frame = this.$refs.iframeContent.contentWindow
+
+      // const style =
+      //   '.layout__wrapper {background:' +
+      //   this.background +
+      //   ';} ' +
+      //   'body {color:' +
+      //   this.text +
+      //   ';} '
+      // this.frame.postMessage(style, '*')
+    },
   },
 }
 </script>
