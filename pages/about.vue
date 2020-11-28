@@ -31,7 +31,7 @@
             place. Read more about us below!
           </h2>
 
-          <h2 class="team-section-titles">Our Team</h2>
+          <h3 class="team-section-titles mt-5">Our Team</h3>
           <div class="team">
             <div class="team-card vivek">
               <b-img
@@ -41,7 +41,9 @@
               <h3 class="team-name">Vivek Aswani</h3>
               <p class="team-role">The Finance Ninja</p>
               <!-- Button trigger modal -->
-              <b-button v-b-modal="'vivek-bio'">Learn More</b-button>
+              <b-button class="button button-no-border" v-b-modal="'vivek-bio'"
+                >Learn More</b-button
+              >
 
               <!-- Viveks modal -->
               <b-modal id="vivek-bio">

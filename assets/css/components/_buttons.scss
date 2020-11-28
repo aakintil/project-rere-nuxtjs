@@ -45,3 +45,11 @@
 .button-outline-primary * {
   color: $primary-blue !important;
 }
+
+.button-no-border {
+  border: none;
+  background: transparent;
+  color: $primary-blue;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+}

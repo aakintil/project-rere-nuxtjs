@@ -144,3 +144,45 @@ h5 {
 .info-cards-img {
   width: 140px;
 }
+
+// about page
+.team {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card * {
+  margin: 8px 0;
+}
+
+.team-card h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-size: 32px;
+}
+
+.team-card .team-role {
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 300;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.team-section-titles {
+  border-bottom: 4px solid $primary-blue;
+  width: 190px;
+  margin: 0 auto;
+  padding-bottom: 4px;
+  text-align: center;
+  font-weight: 400;
+}
