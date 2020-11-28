@@ -1,10 +1,5 @@
 <template>
-  <transition
-    name="home"
-    mode="in-out"
-    appear
-    appear-class="custom-appear-class"
-  >
+  <transition name="fade" mode="out-in" appear>
     <div class="row row-body">
       <div class="hero">
         <div class="text-wrapper">
@@ -165,7 +160,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .home-enter-active,
 .home-leave-active {
   transition: opacity 0.75s;
@@ -173,5 +168,30 @@ export default {
 .home-enter,
 .home-leave-active {
   opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.text-wrapper {
+  max-width: 576px;
+}
+
+@media (min-width: 1200px) {
+  .text-wrapper {
+    max-width: 700px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .text-wrapper {
+    max-width: 900px;
+  }
 }
 </style>
