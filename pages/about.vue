@@ -363,11 +363,21 @@ export default {
   .hero-image {
     max-width: 100%;
   }
+  .text-wrapper {
+    max-width: 670px;
+  }
+
   .text-wrapper h1 {
     max-width: 1100px;
   }
   .text-wrapper h5 {
     max-width: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .text-wrapper {
+    max-width: 900px;
   }
 }
 </style>
