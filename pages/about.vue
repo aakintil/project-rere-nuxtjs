@@ -43,12 +43,12 @@
                 <h3 class="team-name">Vivek Aswani</h3>
                 <p class="team-role">The Finance Ninja</p>
                 <!-- Button trigger modal -->
-                <button class="button button-no-border" v-b-modal="'vivek-bio'">
+                <button v-b-modal="'vivek-bio'" class="button button-no-border">
                   Learn More
                 </button>
 
                 <!-- Viveks modal -->
-                <b-modal hide-footer="true" id="vivek-bio">
+                <b-modal id="vivek-bio" hide-footer="true">
                   <div class="team-card">
                     <b-img
                       :src="require('~/assets/images/team/vivek.png')"
@@ -93,14 +93,14 @@
                 <p class="team-role">The Social Impact Queen</p>
                 <!-- Button trigger modal -->
                 <button
-                  class="button button-no-border"
                   v-b-modal="'anusha-bio'"
+                  class="button button-no-border"
                 >
                   Learn More
                 </button>
 
                 <!-- Viveks modal -->
-                <b-modal hide-footer="true" id="anusha-bio">
+                <b-modal id="anusha-bio" hide-footer="true">
                   <div class="team-card">
                     <b-img
                       :src="require('~/assets/images/team/anusha.png')"
@@ -143,14 +143,14 @@
                 <p class="team-role">The Musical Maestro</p>
                 <!-- Button trigger modal -->
                 <button
-                  class="button button-no-border"
                   v-b-modal="'archibald-bio'"
+                  class="button button-no-border"
                 >
                   Learn More
                 </button>
 
                 <!-- Archis modal -->
-                <b-modal hide-footer="true" id="archibald-bio">
+                <b-modal id="archibald-bio" hide-footer="true">
                   <div class="team-card">
                     <b-img
                       :src="require('~/assets/images/team/archibald.png')"
@@ -192,14 +192,14 @@
                 <p class="team-role">The Tech Guru</p>
                 <!-- Button trigger modal -->
                 <button
-                  class="button button-no-border"
                   v-b-modal="'aderinsola-bio'"
+                  class="button button-no-border"
                 >
                   Learn More
                 </button>
 
                 <!-- Archis modal -->
-                <b-modal hide-footer="true" id="aderinsola-bio">
+                <b-modal id="aderinsola-bio" hide-footer="true">
                   <div class="team-card">
                     <b-img
                       :src="require('~/assets/images/team/aderinsola.png')"
@@ -241,12 +241,12 @@
                 <h3 class="team-name">Nitin Vaswani</h3>
                 <p class="team-role">The Social Finance Doctor</p>
                 <!-- Button trigger modal -->
-                <button class="button button-no-border" v-b-modal="'nitin-bio'">
+                <button v-b-modal="'nitin-bio'" class="button button-no-border">
                   Learn More
                 </button>
 
                 <!-- Archis modal -->
-                <b-modal hide-footer="true" id="nitin-bio">
+                <b-modal id="nitin-bio" hide-footer="true">
                   <div class="team-card">
                     <b-img
                       :src="require('~/assets/images/team/nitin.png')"

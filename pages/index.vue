@@ -74,14 +74,13 @@
               Asia
             </h2>
             <iframe
-              allowtransparency="true"
               id="JotFormIFrame-90142788412154"
+              allowtransparency="true"
               title="Trainee Registration Form"
               allowfullscreen="true"
               allow="geolocation; microphone; camera"
               src="https://form.jotform.com/202654195519056"
               frameborder="0"
-              @load="iframeStyles"
               style="
                 width: 1px;
                 min-width: 100%;
@@ -90,6 +89,7 @@
                 border: none;
               "
               scrolling="yes"
+              @load="iframeStyles"
             ></iframe>
           </div>
         </div>

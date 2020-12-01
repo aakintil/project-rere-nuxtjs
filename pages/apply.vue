@@ -41,7 +41,7 @@
                   <p>
                     For the first round of our podcasts, we are going to
                     showcase 4-6 outstanding social enterprises which focus on
-                    Education in Africa. If you’re doing great work in another
+                    Education in Nigeria. If you’re doing great work in another
                     sector or region, look out for our future RFPs, and view
                     above to find our season schedule.
                   </p>
@@ -74,8 +74,8 @@
                     <h3 class="small-mg-btm mt-5 mb-4">Application Form</h3>
                   </div>
                   <iframe
-                    allowtransparency="true"
                     id="JotFormIFrame-90142788412154"
+                    allowtransparency="true"
                     title="Trainee Registration Form"
                     allowfullscreen="true"
                     allow="geolocation; microphone; camera"
@@ -97,7 +97,7 @@
                 <div class="accordion" role="tablist">
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-button block v-b-toggle.accordion-1 variant="info"
+                      <b-button v-b-toggle.accordion-1 block variant="info"
                         >How long is a season?
                       </b-button>
                     </b-card-header>
@@ -115,7 +115,7 @@
 
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-button block v-b-toggle.accordion-2 variant="info"
+                      <b-button v-b-toggle.accordion-2 block variant="info"
                         >How long in the assessment period for each
                         RFP?</b-button
                       >
@@ -133,7 +133,7 @@
 
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-button block v-b-toggle.accordion-3 variant="info"
+                      <b-button v-b-toggle.accordion-3 block variant="info"
                         >Once my application is approved, what next?
                       </b-button>
                     </b-card-header>
@@ -150,7 +150,7 @@
 
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-button block v-b-toggle.accordion-4 variant="info"
+                      <b-button v-b-toggle.accordion-4 block variant="info"
                         >What is the season lineup?
                       </b-button>
                     </b-card-header>
@@ -167,7 +167,7 @@
 
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-button block v-b-toggle.accordion-5 variant="info"
+                      <b-button v-b-toggle.accordion-5 block variant="info"
                         >Can I reapply for a future season?
                       </b-button>
                     </b-card-header>
@@ -184,7 +184,7 @@
 
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
-                      <b-button block v-b-toggle.accordion-6 variant="info"
+                      <b-button v-b-toggle.accordion-6 block variant="info"
                         >Why are some seasons country specific and others more
                         general?
                       </b-button>
