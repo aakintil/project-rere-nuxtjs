@@ -42,8 +42,8 @@
                     For the first round of our podcasts, we are going to
                     showcase 4-6 outstanding social enterprises which focus on
                     Education in Nigeria. If you’re doing great work in another
-                    sector or region, look out for our future RFPs, and view
-                    above to find our season schedule.
+                    sector or region, look out for our future RFPs (Request For
+                    Podcasts), and view above to find our season schedule.
                   </p>
                   <br />
                   <p>
@@ -51,9 +51,10 @@
                     Applications for Season 1 of the RFP closes on (specify
                     date) and we will announce the successful applicants 4 weeks
                     later. Each applicant that qualifies will receive the chance
-                    to share their story to the world and up to
+                    to share their story to the world and receive up to
                     <span class="bold"> US $25,000 </span> in grant funding.
                   </p>
+                  <br />
                   <span class="underline"> Criteria </span>
                   <ol type="1">
                     <li>Solving a social problem based on our season</li>
