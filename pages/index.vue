@@ -1,4 +1,7 @@
 <template>
+  <!-- TODOs -->
+  <!-- for loading images  -->
+  <!-- https://stackoverflow.com/questions/47535317/how-to-fade-in-images-when-loaded-with-vue/47551907 -->
   <transition name="fade" mode="out-in" appear>
     <div class="row row-body">
       <div class="hero">
@@ -15,12 +18,17 @@
           </nuxt-link>
         </div>
         <div class="overlay"></div>
-        <b-img
+        <v-lazy-image
+          class="hero-image"
+          :src="require('~/assets/images/hero-banner.jpg')"
+          src-placeholder="https://cdn-images-1.medium.com/max/80/1*xjGrvQSXvj72W4zD6IWzfg.jpeg"
+        />
+        <!-- <b-img
           fluid
           class="hero-image"
           :src="require('~/assets/images/hero-banner.jpg')"
           alt="Responsive image"
-        ></b-img>
+        ></b-img> -->
       </div>
       <div class="content">
         <div class="content-wrapper">
@@ -122,7 +130,11 @@
 
 <script>
 import $ from 'jquery'
+import VLazyImage from 'v-lazy-image'
 export default {
+  components: {
+    VLazyImage,
+  },
   transition: {
     name: 'home',
     mode: 'out-in',
@@ -161,6 +173,15 @@ export default {
 </script>
 
 <style scoped>
+.v-lazy-image {
+  filter: blur(10px);
+  transition: filter 0.7s;
+}
+
+.v-lazy-image-loaded {
+  filter: blur(0);
+}
+
 .home-enter-active,
 .home-leave-active {
   transition: opacity 0.75s;

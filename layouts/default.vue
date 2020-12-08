@@ -14,7 +14,7 @@ export default {
     Header,
   },
   mounted() {
-    $('.container-fluid').fadeTo(750, 1)
+    $('.container-fluid').fadeTo(0, 1)
   },
 }
 </script>
