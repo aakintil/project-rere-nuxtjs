@@ -19,8 +19,8 @@
           </h5>
           <h5>
             Apply now for our Podcast! Successful applicants will get a chance
-            to share their story with the world and win grant funding of up to
-            US $25,000.
+            to share their story with the world and receieve grant funding of up
+            to US $25,000.
           </h5>
         </div>
         <div class="overlay"></div>
@@ -43,7 +43,7 @@
                     showcase 4-6 outstanding social enterprises which focus on
                     Education in Nigeria. If you’re doing great work in another
                     sector or region, look out for our future RFPs (Request For
-                    Podcasts), and view above to find our season schedule.
+                    Podcasts), and View our season schedule above.
                   </p>
                   <br />
                   <p>
