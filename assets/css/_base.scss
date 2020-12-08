@@ -5,6 +5,13 @@ body {
 
 .container-fluid {
   padding: 0;
+  // opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .row {
