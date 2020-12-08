@@ -20,7 +20,7 @@
           <h5>
             Apply now for our Podcast! Successful applicants will get a chance
             to share their story with the world and receieve grant funding of up
-            to US $25,000.
+            to US$25,000.
           </h5>
         </div>
         <div class="overlay"></div>
@@ -52,7 +52,7 @@
                     date) and we will announce the successful applicants 4 weeks
                     later. Each applicant that qualifies will receive the chance
                     to share their story to the world and receive up to
-                    <span class="bold"> US $25,000 </span> in grant funding.
+                    <span class="bold"> US$25,000 </span> in grant funding.
                   </p>
                   <br />
                   <span class="underline"> Criteria </span>
