@@ -76,16 +76,6 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend(config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-        })
-      }
-    },
-    extend(config, ctx) {
       const vueLoader = config.module.rules.find(
         (rule) => rule.loader === 'vue-loader'
       )
@@ -98,6 +88,15 @@ export default {
         'b-card-img': 'img-src',
         'b-carousel-slide': 'img-src',
         'b-embed': 'src',
+      }
+
+      if (isDev && isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/,
+        })
       }
     },
   },
