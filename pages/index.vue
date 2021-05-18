@@ -7,8 +7,8 @@
             Project Rere supports Social Enterprises in Africa and Asia.
           </h1>
           <h5 class="mt-5">
-            Working on improving access to Education in Nigeria? Apply now for
-            our Podcast and Grant!
+            Working on creating social impact in Nigeria? Apply now for our
+            Podcast and Grant!
           </h5>
           <nuxt-link to="/apply" class="button button-primary button-lg mt-2">
             Apply

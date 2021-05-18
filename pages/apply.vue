@@ -39,10 +39,10 @@
                 <div class="apply-wrapper">
                   <p>
                     For the first round of our podcasts, we are going to
-                    showcase 4-6 outstanding social enterprises which focus on
-                    Education in Nigeria. If you’re doing great work in another
-                    sector or region, look out for our future RFPs (Request For
-                    Podcasts), and View our season schedule above.
+                    showcase 4-6 outstanding social enterprises with operaions
+                    in Nigeria. If you’re doing great work in another sector or
+                    region, look out for our future RFPs (Request For Podcasts),
+                    and View our season schedule above.
                   </p>
                   <br />
                   <p>
@@ -147,7 +147,7 @@
                     </b-collapse>
                   </b-card>
 
-                  <b-card no-body class="mb-1">
+                  <!-- <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
                       <b-button v-b-toggle.accordion-4 block variant="info"
                         >What is the season lineup?
@@ -162,7 +162,7 @@
                         <b-card-text>{{ lineup }}</b-card-text>
                       </b-card-body>
                     </b-collapse>
-                  </b-card>
+                  </b-card> -->
 
                   <b-card no-body class="mb-1">
                     <b-card-header header-tag="header" class="p-1" role="tab">
@@ -206,7 +206,7 @@
                   >
                 </p>
               </b-tab>
-              <b-tab title="Schedule">
+              <!-- <b-tab title="Schedule">
                 <h2 class="mt-5 mb-2">Schedule</h2>
                 <ol>
                   <li>Education in Nigeria - December 2020</li>
@@ -221,7 +221,7 @@
                   accordingly. Subscribe to our newsletter to stay informed.
                   Subsequent seasons will be added shortly.
                 </p>
-              </b-tab>
+              </b-tab> -->
             </b-tabs>
           </div>
         </div>
