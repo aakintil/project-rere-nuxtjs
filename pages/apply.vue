@@ -39,7 +39,7 @@
                 <div class="apply-wrapper">
                   <p>
                     For the first round of our podcasts, we are going to
-                    showcase 4-6 outstanding social enterprises with operaions
+                    showcase 4-6 outstanding social enterprises with operations
                     in Nigeria. If you’re doing great work in another sector or
                     region, look out for our future RFPs (Request For Podcasts),
                     and View our season schedule above.
