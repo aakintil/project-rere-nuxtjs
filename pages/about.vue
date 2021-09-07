@@ -13,7 +13,7 @@
             Project Rere shares stories about Social Entrepreneurs who are
             making a difference, particularly in Africa and Asia. Our team aims
             to shine a light on the positive impact being created by Social
-            Enterpreneurs across global communities.
+            Entrepreneurs across global communities.
           </h5>
         </div>
         <div class="overlay"></div>
