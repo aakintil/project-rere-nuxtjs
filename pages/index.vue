@@ -24,12 +24,201 @@
       </div>
       <div class="content">
         <div class="content-wrapper">
-          <div class="info">
+          <div class="winners-container info">
+            <h2 class="">
+              Welcome and Congratulations to Project Rere Season 1 Winners!
+            </h2>
+            <div class="winners-cards-container pb-5">
+              <div class="row">
+                <div class="col team-card">
+                  <b-img
+                    :src="require('~/assets/images/winners/AgroData.png')"
+                    alt=""
+                    rounded="circle"
+                  ></b-img>
+                  <h3 class="team-name">AGRO DATA</h3>
+                  <p class="team-bio">
+                    Agro Data deploys a bee-centered cropping model, using honey
+                    bees as pollinators for fruits and...
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button
+                    v-b-modal="'argodata-bio'"
+                    class="button button-no-border"
+                  >
+                    Learn More
+                  </button>
+
+                  <!-- Agro Data modal -->
+                  <b-modal id="argodata-bio" hide-footer="true">
+                    <div class="team-card">
+                      <b-img
+                        :src="require('~/assets/images/winners/AgroData.png')"
+                        alt=""
+                        rounded="circle"
+                      ></b-img>
+                      <h3 class="team-name">AGRO DATA</h3>
+                      <p class="team-bio">The Social Finance Doctor</p>
+                      <div class="bios">
+                        <p class="bio">
+                          Agro Data deploys a bee-centered cropping model, using
+                          honey bees as pollinators for fruits and...
+                        </p>
+                        <br />
+                        <p class="bio">
+                          Agro Data deploys a bee-centered cropping model, using
+                          honey bees as pollinators for fruits and...
+                        </p>
+                      </div>
+                    </div>
+                  </b-modal>
+                </div>
+                <div class="col team-card">
+                  <b-img
+                    :src="require('~/assets/images/winners/GreenAxis.png')"
+                    alt=""
+                    rounded="circle"
+                  ></b-img>
+                  <h3 class="team-name">GREEN AXIS</h3>
+                  <p class="team-bio">
+                    Green Axis converts waste materials into near virgin raw
+                    materials for the plastic manufacturing companies in
+                    Nigeria...
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button
+                    v-b-modal="'greenaxis-bio'"
+                    class="button button-no-border"
+                  >
+                    Learn More
+                  </button>
+
+                  <!-- Agro Data modal -->
+                  <b-modal id="greenaxis-bio" hide-footer="true">
+                    <div class="team-card">
+                      <b-img
+                        :src="require('~/assets/images/winners/GreenAxis.png')"
+                        alt=""
+                        rounded="circle"
+                      ></b-img>
+                      <h3 class="team-name">Green Axis</h3>
+                      <p class="team-bio">The Social Finance Doctor</p>
+                      <div class="bios">
+                        <p class="bio">
+                          Green Axis converts waste materials into near virgin
+                          raw materials for the plastic manufacturing companies
+                          in Nigeria...
+                        </p>
+                        <br />
+                        <p class="bio">
+                          Green Axis converts waste materials into near virgin
+                          raw materials for the plastic manufacturing companies
+                          in Nigeria...
+                        </p>
+                      </div>
+                    </div>
+                  </b-modal>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col team-card">
+                  <b-img
+                    :src="require('~/assets/images/winners/PetsPoint.png')"
+                    alt=""
+                    rounded="circle"
+                  ></b-img>
+                  <h3 class="team-name">PETSPOINT RECYLING</h3>
+                  <p class="team-bio">
+                    PETsPoint is an integrated clean tech value chain social
+                    enterprise, we are leveraging technology to...
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button
+                    v-b-modal="'petspoint-bio'"
+                    class="button button-no-border"
+                  >
+                    Learn More
+                  </button>
+
+                  <!-- Agro Data modal -->
+                  <b-modal id="petspoint-bio" hide-footer="true">
+                    <div class="team-card">
+                      <b-img
+                        :src="require('~/assets/images/winners/PetsPoint.png')"
+                        alt=""
+                        rounded="circle"
+                      ></b-img>
+                      <h3 class="team-name">PETsPoint Recyling</h3>
+                      <p class="team-bio">The Social Finance Doctor</p>
+                      <div class="bios">
+                        <p class="bio">
+                          PETsPoint is an integrated clean tech value chain
+                          social enterprise, we are leveraging technology to...
+                        </p>
+                        <br />
+                        <p class="bio">
+                          PETsPoint is an integrated clean tech value chain
+                          social enterprise, we are leveraging technology to...
+                        </p>
+                      </div>
+                    </div>
+                  </b-modal>
+                </div>
+                <div class="col team-card">
+                  <b-img
+                    :src="require('~/assets/images/winners/recyclegh.png')"
+                    alt=""
+                    rounded="circle"
+                  ></b-img>
+                  <h3 class="team-name">RECYCLE GARB HUB</h3>
+                  <p class="team-bio">
+                    Through stories, we aim to provide social Enterprises access
+                    to an audience of curious listeners and investors..
+                  </p>
+                  <!-- Button trigger modal -->
+                  <button
+                    v-b-modal="'recyclegh-bio'"
+                    class="button button-no-border"
+                  >
+                    Learn More
+                  </button>
+
+                  <!-- Agro Data modal -->
+                  <b-modal id="recyclegh-bio" hide-footer="true">
+                    <div class="team-card">
+                      <b-img
+                        :src="require('~/assets/images/winners/recyclegh.png')"
+                        alt=""
+                        rounded="circle"
+                      ></b-img>
+                      <h3 class="team-name">Recylce Garb Hub</h3>
+                      <p class="team-bio">The Social Finance Doctor</p>
+                      <div class="bios">
+                        <p class="bio">
+                          Through stories, we aim to provide social Enterprises
+                          access to an audience of curious listeners and
+                          investors..
+                        </p>
+                        <br />
+                        <p class="bio">
+                          Through stories, we aim to provide social Enterprises
+                          access to an audience of curious listeners and
+                          investors..
+                        </p>
+                      </div>
+                    </div>
+                  </b-modal>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="info pt-5">
             <h2 class="">
               We hope to inspire more people to support Social Enterprises, and
               begin their own social impact journey.
             </h2>
-            <div class="info-cards-container">
+            <div class="info-cards-container row">
               <div class="info-card">
                 <b-img
                   class="info-cards-img"
@@ -68,6 +257,7 @@
               </div>
             </div>
           </div>
+          <div class="divider"></div>
           <div class="join">
             <h2>
               Join us as we promote positive social change across Africa and
@@ -179,8 +369,24 @@ export default {
   opacity: 0;
 }
 
+.team-name {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #4d4d4d;
+}
+
+.team-bio {
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
 .text-wrapper {
   max-width: 576px;
+}
+
+.divider {
+  width: 90%;
+  border: 1px solid #01d6fa;
 }
 
 @media (min-width: 1200px) {
