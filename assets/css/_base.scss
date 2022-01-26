@@ -9,6 +9,12 @@ body {
   letter-spacing: 1px;
 }
 
+.social-row {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+}
+
 .bold {
   font-weight: 800;
 }

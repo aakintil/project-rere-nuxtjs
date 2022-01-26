@@ -13,6 +13,23 @@
             Follow us to find our more about this season and our upcoming
             Request for Podcast.
           </h5>
+          <div class="social-row">
+            <a href="https://www.facebook.com/projectrere/" target="_blank">
+              <b-img
+                class="social-icons"
+                :src="require('~/assets/images/icons/facebook-icon.svg')"
+                alt="Facebook"
+              ></b-img>
+            </a>
+
+            <a href="https://www.facebook.com/projectrere/" target="_blank">
+              <b-img
+                class="social-icons"
+                :src="require('~/assets/images/icons/insta-icon.svg')"
+                alt="Instagram"
+              ></b-img>
+            </a>
+          </div>
         </div>
         <div class="overlay"></div>
         <b-img
