@@ -6,13 +6,13 @@
           <h1 class="">
             Project Rere supports Social Enterprises in Africa and Asia.
           </h1>
-          <h5 class="mt-5">
-            Working on creating social impact in Nigeria? Apply now for our
-            Podcast and Grant!
+          <h3 class="upper bold mt-5">
+            Season 1 of our Podcast is on the way!
+          </h3>
+          <h5 class="mt-2">
+            Follow us to find our more about this season and our upcoming
+            Request for Podcast.
           </h5>
-          <nuxt-link to="/apply" class="button button-primary button-lg mt-2">
-            Apply
-          </nuxt-link>
         </div>
         <div class="overlay"></div>
         <b-img
@@ -172,8 +172,9 @@
                   ></b-img>
                   <h3 class="team-name">RECYCLE GARB HUB</h3>
                   <p class="team-bio">
-                    Through stories, we aim to provide social Enterprises access
-                    to an audience of curious listeners and investors..
+                    To be the biggest waste management player in Africa, and
+                    provide affordable housing, healthcare and economic
+                    development...
                   </p>
                   <!-- Button trigger modal -->
                   <button

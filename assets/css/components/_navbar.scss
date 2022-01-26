@@ -2,6 +2,9 @@
   margin-top: $navbar-height;
 }
 
+.mg-right {
+  margin-right: 50px; 
+}
 .navbar {
   padding: map-get($spacing-val, 4);
   width: 100%;
@@ -23,7 +26,7 @@
 
 .navbar-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   height: 160px;
 }
