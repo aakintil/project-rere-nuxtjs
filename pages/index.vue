@@ -175,7 +175,8 @@
                   <h3 class="team-name">PETSPOINT RECYLING</h3>
                   <p class="team-bio">
                     PETsPoint is an integrated clean tech value chain social
-                    enterprise, we are leveraging technology to...
+                    enterprise, we are leveraging technology to deploy mobile
+                    application that allows aggregation of...
                   </p>
                   <!-- Button trigger modal -->
                   <button
