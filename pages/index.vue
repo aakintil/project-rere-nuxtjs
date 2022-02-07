@@ -56,7 +56,7 @@
                   <h3 class="team-name">AGRO DATA</h3>
                   <p class="team-bio">
                     Agro Data deploys a bee-centered cropping model, using honey
-                    bees as pollinators for fruits and...
+                    bees as pollinators for fruits and vegetable farming...
                   </p>
                   <!-- Button trigger modal -->
                   <button
@@ -70,21 +70,36 @@
                   <b-modal id="argodata-bio" hide-footer="true">
                     <div class="team-card">
                       <b-img
-                        :src="require('~/assets/images/winners/AgroData.png')"
+                        :src="require('~/assets/images/winners/agrodata-2.png')"
                         alt=""
                         rounded="circle"
                       ></b-img>
                       <h3 class="team-name">AGRO DATA</h3>
                       <div class="bios">
                         <p class="bio">
-                          Agro Data deploys a bee-centered cropping model, using
-                          honey bees as pollinators for fruits and...
+                          AgroData® deploys a bee-centred cropping model using
+                          honey bees as pollinators for fruits and vegetable
+                          farming. We enlist smallholder crop farmers into a
+                          Community Bee AgriFood Network (CoBAN) and installs
+                          beehives (for free) on their farmlands in a
+                          partnership deal. We aggregate RAW HONEY across these
+                          farms and package as FRESHDEW HONEY (NAFDAC
+                          Certified); sharing the revenue with the smallholder
+                          farmers.
+                        </p>
+                        <p class="bio">
+                          We use innovative tech with sustainable practices to
+                          improve farm productivity and rural livelihoods. We
+                          enhance the bees-crops interaction with the invention
+                          of the iSmart Hive (an IoT device) and we provide
+                          Pollination as a Service. AgroData iSmarthive®
+                          promotes rapid bee’s colonization towards pollination
+                          of crops, enhances raw honey collection and collates
+                          agro-ecological data from the environment, which helps
+                          in the management of the Bees_Crops ecosystem.
                         </p>
                         <br />
-                        <p class="bio">
-                          Agro Data deploys a bee-centered cropping model, using
-                          honey bees as pollinators for fruits and...
-                        </p>
+                        <p class="bio"></p>
                       </div>
                     </div>
                   </b-modal>
@@ -113,23 +128,37 @@
                   <b-modal id="greenaxis-bio" hide-footer="true">
                     <div class="team-card">
                       <b-img
-                        :src="require('~/assets/images/winners/GreenAxis.png')"
+                        :src="require('~/assets/images/winners/green-axis.png')"
                         alt=""
                         rounded="circle"
                       ></b-img>
                       <h3 class="team-name">Green Axis</h3>
-                      <p class="team-bio">The Social Finance Doctor</p>
                       <div class="bios">
                         <p class="bio">
-                          Green Axis converts waste materials into near virgin
-                          raw materials for the plastic manufacturing companies
-                          in Nigeria...
+                          Our mission is to proffer a sustainable waste
+                          management practices by providing door to door waste
+                          disposal services while making available sufficient
+                          supply and top quality recyclable materials for
+                          reprocessing into new end product. In addition, we
+                          would introduce a digital database to manage the
+                          individual contribution of our target population and
+                          promote a high performance, efficient and flexible
+                          workforce.
                         </p>
                         <br />
                         <p class="bio">
-                          Green Axis converts waste materials into near virgin
-                          raw materials for the plastic manufacturing companies
-                          in Nigeria...
+                          Our vision is to be a substantial proponent of the
+                          transition from Nigerian’s low participation in waste
+                          recycling to the use of efficient waste management
+                          technology and delivery of zero waste status which is
+                          in line with the 17 SDG's of the United Nations. H)
+                          Use of funds: we will be able to divert additional 20
+                          tonnes of recyclables away from landfill monthly,
+                          currently we divert over 15-25 tonnes of waste, and
+                          employ over 17 young people and also provides 120
+                          indirect jobs through waste collectors ( Youths,
+                          sit-at-home women, scavengers, waste contractors) who
+                          sell to Green Axis on a regular.
                         </p>
                       </div>
                     </div>
@@ -165,16 +194,34 @@
                         rounded="circle"
                       ></b-img>
                       <h3 class="team-name">PETsPoint Recyling</h3>
-                      <p class="team-bio">The Social Finance Doctor</p>
                       <div class="bios">
                         <p class="bio">
                           PETsPoint is an integrated clean tech value chain
-                          social enterprise, we are leveraging technology to...
+                          social enterprise, we are leveraging technology to
+                          deploy mobile application that allows aggregation of
+                          plastic waste directly from households, communities,
+                          market place, event centres, including public and
+                          private facilities through provision of community
+                          collection infrastructures “receptacles” while using
+                          incentives to drive desired behaviours and empower
+                          semi-skilled women and girls from low income
+                          communities. The recovered recyclables will be
+                          recycled to manufacture high quality eco-friendly
+                          products starting with bricks for the building
+                          industry in short term with a long term plan and
+                          expansion to production of yarns/fibres, t-shirts and
+                          other consumables in the value chain.
                         </p>
                         <br />
                         <p class="bio">
-                          PETsPoint is an integrated clean tech value chain
-                          social enterprise, we are leveraging technology to...
+                          Our mobile/digital platform “Junkyard” allows citizens
+                          dispose their recyclable waste through a seamless
+                          technological process and earn incentives. It also
+                          allows waste management companies who register as a
+                          collector on the app to collect recyclable waste
+                          products through a seamless process. It comes with an
+                          administrative panel which is the data collection web
+                          app of the solution.
                         </p>
                       </div>
                     </div>
