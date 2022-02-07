@@ -75,7 +75,6 @@
                         rounded="circle"
                       ></b-img>
                       <h3 class="team-name">AGRO DATA</h3>
-                      <p class="team-bio">The Social Finance Doctor</p>
                       <div class="bios">
                         <p class="bio">
                           Agro Data deploys a bee-centered cropping model, using
