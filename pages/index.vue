@@ -234,11 +234,11 @@
                     alt=""
                     rounded="circle"
                   ></b-img>
-                  <h3 class="team-name">RECYCLE GARB HUB</h3>
+                  <h3 class="team-name">RECYCLEGARB</h3>
                   <p class="team-bio">
-                    To be the biggest waste management player in Africa, and
-                    provide affordable housing, healthcare and economic
-                    development...
+                    ReceycleGarb operate a waste recycling scheme that motivates
+                    and benefits grass root communities and informal waste
+                    pickers...
                   </p>
                   <!-- Button trigger modal -->
                   <button
@@ -256,19 +256,28 @@
                         alt=""
                         rounded="circle"
                       ></b-img>
-                      <h3 class="team-name">Recylce Garb Hub</h3>
-                      <p class="team-bio">The Social Finance Doctor</p>
+                      <h3 class="team-name">RecylceGarb</h3>
                       <div class="bios">
                         <p class="bio">
-                          Through stories, we aim to provide social Enterprises
-                          access to an audience of curious listeners and
-                          investors..
+                          We operate a waste recycling scheme that motivates and
+                          benefits grass root communities and informal waste
+                          pickers. We are a social enterprise whose mission is
+                          to create income and development opportunities for
+                          individuals and communities by tackling poverty,
+                          hunger, menstrual poverty and access to education
+                          through waste recovery and recycling across Nigeria
+                          and Africa.
                         </p>
                         <br />
                         <p class="bio">
-                          Through stories, we aim to provide social Enterprises
-                          access to an audience of curious listeners and
-                          investors..
+                          The grant fund will enable us scale up our waste
+                          recovering operations, thereby providing more income
+                          opportunities for underprivileged low income
+                          communities. The grant will also enable us implement
+                          our Green Bank project, where low income communities
+                          have access to foodstuffs, pay their children's school
+                          fee ,as well as being able to afford monthly sanitary
+                          pads monthly.
                         </p>
                       </div>
                     </div>
