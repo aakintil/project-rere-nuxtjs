@@ -9,6 +9,15 @@ body {
   letter-spacing: 1px;
 }
 
+.agroData {
+  max-width: 432px;
+}
+
+.agroCenter {
+  display: flex;
+  justify-content: center;
+}
+
 .social-row {
   display: flex;
   width: 160px;
