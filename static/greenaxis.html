@@ -1,0 +1,60 @@
+<div class="col team-card">
+    <b-img
+      :src="require('~/assets/images/winners/GreenAxis.png')"
+      alt=""
+      rounded="circle"
+    ></b-img>
+    <h3 class="team-name">GREEN AXIS</h3>
+    <p class="team-bio">
+      Green Axis converts waste materials into near virgin raw
+      materials for the plastic manufacturing companies in
+      Nigeria...
+    </p>
+    <!-- Button trigger modal -->
+    <button
+      v-b-modal="'greenaxis-bio'"
+      class="button button-no-border"
+    >
+      Learn More
+    </button>
+
+    <!-- Agro Data modal -->
+    <b-modal id="greenaxis-bio" hide-footer="true">
+      <div class="team-card">
+        <b-img
+          :src="require('~/assets/images/winners/green-axis.png')"
+          alt=""
+          rounded="circle"
+        ></b-img>
+        <h3 class="team-name">Green Axis</h3>
+        <div class="bios">
+          <p class="bio">
+            Our mission is to proffer a sustainable waste
+            management practices by providing door to door waste
+            disposal services while making available sufficient
+            supply and top quality recyclable materials for
+            reprocessing into new end product. In addition, we
+            would introduce a digital database to manage the
+            individual contribution of our target population and
+            promote a high performance, efficient and flexible
+            workforce.
+          </p>
+          <br />
+          <p class="bio">
+            Our vision is to be a substantial proponent of the
+            transition from Nigerian’s low participation in waste
+            recycling to the use of efficient waste management
+            technology and delivery of zero waste status which is
+            in line with the 17 SDG's of the United Nations. H)
+            Use of funds: we will be able to divert additional 20
+            tonnes of recyclables away from landfill monthly,
+            currently we divert over 15-25 tonnes of waste, and
+            employ over 17 young people and also provides 120
+            indirect jobs through waste collectors ( Youths,
+            sit-at-home women, scavengers, waste contractors) who
+            sell to Green Axis on a regular.
+          </p>
+        </div>
+      </div>
+    </b-modal>
+  </div>
